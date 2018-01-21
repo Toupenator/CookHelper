@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="uneebamerhenryaaronabdullah.uottawa.com.ca.cookhelper.helpActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/instructionLabel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:text='Finding a recipe: Tap "Find a recipe" and type in the name of the recipe you want. Alternatively, enter the ingredients that you would like your recipe to have and select from the list of recipes that contain them.'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/instructionsText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:text='Adding recipes: Tap"Add a recipe" and input the information for the category and steps of the recipe in their respective fields. Tap "create". Your recipe is now available to be searched for in the "Find a recipe" function."'
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addInstructoiinText"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </LinearLayout>
+
+</RelativeLayout>

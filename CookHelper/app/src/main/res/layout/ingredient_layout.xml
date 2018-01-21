@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:id="@+id/tvQuantity"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvIngredientName"
+        android:layout_toEndOf="@+id/tvIngredientName" />
+
+    <TextView
+        android:text="Unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvQuantity"
+        android:layout_toRightOf="@+id/tvQuantity"
+        android:layout_toEndOf="@+id/tvQuantity"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:id="@+id/tvUnit"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:text="Ingredient Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIngredientName"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

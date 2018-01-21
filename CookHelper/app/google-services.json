@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "446118597682",
+    "firebase_url": "https://cookhelper-69a33.firebaseio.com",
+    "project_id": "cookhelper-69a33",
+    "storage_bucket": "cookhelper-69a33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446118597682:android:654daffe89a69595",
+        "android_client_info": {
+          "package_name": "uneebamerhenryaaronabdullah.uottawa.com.ca.cookhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446118597682-hlucra5njupg4mq5iegea32c77cat8ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxm6LGPAcDvDAB8KcSVJnHEF0IidvYS74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="categoryList">
+        <item>All</item>
+        <item>Colombian</item>
+        <item>Portuguese</item>
+        <item>Italian</item>
+        <item>Mexican</item>
+        <item>Syrian</item>
+        <item>Chinese</item>
+        <item>Pakistani</item>
+        <item>Indian</item>
+        <item>Japanese</item>
+        <item>Greek</item>
+    </string-array>
+
+    <string-array name="typeList">
+        <item>All</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+    </string-array>
+
+    <string-array name="colombianMain">
+        <item>Ajiaco</item>
+        <item>Asado Bogotano</item>
+        <item>Bandeja Paisa</item>
+        <item>Changua</item>
+        <item>Lechona</item>
+    </string-array>
+
+</resources>
+
